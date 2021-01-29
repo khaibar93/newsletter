@@ -39,11 +39,11 @@ app.post("/", function(req, res) {
 
   const jsonData = JSON.stringify(data);
 
-  const url = "https://us7.api.mailchimp.com/3.0/lists/efdffa3666";
+  const url = 
 
   const options = {
     method: "POST",
-    auth: "Khaibar:2593059878a5826738c1f9ab36848cea-us7"
+    auth: "Khaibar:
   }
 
   const request = https.request(url, options, function(response) {
@@ -74,8 +74,3 @@ app.listen(process.env.PORT || 3000, function() {
 });
 
 
-//API Key
-//  2593059878a5826738c1f9ab36848cea-us7
-
-//list Id
-//efdffa3666
